@@ -1,0 +1,10 @@
+.Card {
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(153, 153, 153, 0.497);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+    width: 600px;
+    text-align: left;
+    color: black;
+}

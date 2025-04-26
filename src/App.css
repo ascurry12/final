@@ -1,0 +1,114 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  position: fixed;
+  overflow: hidden;
+  background-color: #646cff;
+  width: 100%;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li:hover {
+  background-color: #5159eb;
+}
+
+.link-style {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.link-style:hover {
+  color: white;
+}
+
+.button {
+  background-color: #646cff;
+  color: white;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #5159eb;
+  color: white;
+}
+
+.feed-posts {
+  margin: 30px;
+}
+
+.post-view {
+  margin: 50px;
+  background-color: rgb(241, 239, 239);
+  padding: 30px;
+  border-radius: 10px;
+
+}
+
+.post-view img {
+  width: 25%;
+}
+
+.post-info {
+  text-align: left;
+}
+
+.upvote {
+  width: max-content;
+  padding: 5px;
+}
+
+.upvote:hover {
+  cursor: pointer;
+  background-color: #646cff;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.user-options {
+  display: flex;
+  padding: 0px;
+}
+
+
+.typewriter h1 {
+  overflow: hidden; 
+  border-right: .15em solid #646cff; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: 0.08rem; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #646cff; }
+}
