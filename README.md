@@ -66,6 +66,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='./src/assets/final.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Imgur link](https://imgur.com/a/final-Z2V33Pm)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap  
